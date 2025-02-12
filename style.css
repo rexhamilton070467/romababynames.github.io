@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: "Iskoola Pota", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1, h2 {
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Content Box */
+.content-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Description Section */
+.description {
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* Services Section */
+.services {
+    text-align: left;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.services ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+    .button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .services ul {
+        font-size: 16px;
+    }
+}
